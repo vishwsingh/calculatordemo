@@ -6,11 +6,12 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class CalculatordemoApplication {
 
-	public static void main(String[] args) {
+	public static void mamvnin(String[] args) {
 		SpringApplication.run(CalculatordemoApplication.class, args);
+		multiply(4,5);
 	}
-
-	public int multiply(int a, int b) {
+	public static int multiply(int a, int b) {
 		return a*b;
 	}
+
 }

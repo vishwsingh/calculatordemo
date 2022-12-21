@@ -12,15 +12,16 @@ class CalculatordemoApplicationTests {
 	void contextLoads() {
 	}
 
-	Calculator calculator;
+	//Calculator calculator;
 
 	@Test
 	public void multiplyTest() {
-		calculator = new Calculator();
-		assertEquals(16, calculator.multiply(4,4));
-		assertEquals(25, calculator.multiply(5,5));
-		assertEquals(36, calculator.multiply(6,6));
-		assertEquals(49, calculator.multiply(7,7));
+	//	calculator = new Calculator();
+		assertEquals(16, CalculatordemoApplication.multiply(4,4));
+		assertEquals(25, CalculatordemoApplication.multiply(5,5));
+		assertEquals(36, CalculatordemoApplication.multiply(6,6));
+		assertEquals(49, CalculatordemoApplication.multiply(7,7));
+		assertEquals(64, CalculatordemoApplication.multiply(8,8));
 	}
 
 }
